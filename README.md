@@ -1,10 +1,11 @@
-# Usaha Loka
+# Usaha Loka website
 
-Static website for Usaha Loka (tannery, Malang) with a subpage for Kasin (vegetable-tanned leather).
+Static site for PT Usaha Loka Indonesia (tannery, Malang) with a section for Kasin Leather.
 
-- `/` — Usaha Loka: wet blue, crust, suede (B2B)
-- `/kasin` — Kasin: vegetable-tanned leather catalogue (retail)
+- `/` home: about, leathers, tannery, heritage, LWG Gold, contact
+- `/leathers` cowhide upper and flesh split suede specs
+- `/kasin` Kasin vegetable-tanned leather (vachetta/bark palette via `body.kasin`)
+- `/contact` contact and ordering steps
 
-Plain HTML and CSS, no build step. Deployed on Vercel from the `main` branch.
-
-Placeholders to fill in are marked `[TBD]` or in square brackets, including the WhatsApp number (`wa.me/62XXXXXXXXXX`) and email.
+Plain HTML/CSS, no build step. Vercel deploys `main` automatically (`vercel.json` enables clean URLs).
+Placeholders to fill are marked `[TBD]` or in square brackets.
